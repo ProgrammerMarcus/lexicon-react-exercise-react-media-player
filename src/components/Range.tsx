@@ -1,4 +1,4 @@
-import "./Cover.css";
+import "./Range.css";
 
 export interface RangeProps {
     duration: number;
