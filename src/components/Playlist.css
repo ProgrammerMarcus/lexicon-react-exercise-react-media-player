@@ -1,4 +1,14 @@
 .playlist {
     display: grid;
     gap: 2px;
+    height: min-content;
+    max-height: calc(100vh - 3.5rem);
+    scrollbar-width: none;
+    @media screen and (min-width: 640px){
+        overflow-y: scroll;
+    }
+}
+
+.playlist::-webkit-scrollbar {
+    display: none;
 }

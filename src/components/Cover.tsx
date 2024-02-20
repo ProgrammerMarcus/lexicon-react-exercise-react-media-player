@@ -15,7 +15,7 @@ export function Cover({ title, cover, artist }: CoverProps) {
                     <span className="material-symbols-outlined btn">add_circle</span>
                     <div className="meta">
                         <span className="lato-bold">{title}</span>
-                        <span className="lato-regular">{artist}</span>
+                        <span className="lato-regular subtitle">{artist}</span>
                     </div>
                     <span className="material-symbols-outlined btn dim">favorite</span>
                 </div>

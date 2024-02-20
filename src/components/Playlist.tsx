@@ -32,6 +32,36 @@ const tracks = [
         artist: "Aliens",
         cover: "moon.jpg",
     },
+    {
+        title: "Colorful Sound In Color",
+        artist: "Some artist",
+        cover: "colorful.jpg",
+    },
+    {
+        title: "Holy Rock",
+        artist: "$@1@#",
+        cover: "demon.jpg",
+    },
+    {
+        title: "Drums Drumming",
+        artist: "A drummer",
+        cover: "drums.jpg",
+    },
+    {
+        title: "Future Dreams II",
+        artist: "Time Traveler",
+        cover: "future.jpg",
+    },
+    {
+        title: "Monochrome Grayscale Black",
+        artist: "Old as dirt",
+        cover: "greyscale.jpg",
+    },
+    {
+        title: "Moony Moons Moonier",
+        artist: "Aliens",
+        cover: "moon.jpg",
+    },
 ];
 
 export function Playlist() {

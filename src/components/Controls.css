@@ -2,16 +2,19 @@
     display: grid;
     grid-auto-flow: column;
     grid-template: 1fr / 3rem min-content min-content min-content 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
     .right {
-        margin: auto 0 auto auto auto;
+        margin: auto 0 auto auto;
     }
     .big {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .medium {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .small {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
