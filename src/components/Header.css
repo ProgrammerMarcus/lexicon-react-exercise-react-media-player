@@ -1,0 +1,16 @@
+.header {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    place-items: center;
+    justify-content: space-between;
+    backdrop-filter: brightness(1.1) contrast(90%);
+    padding: 1rem;
+    user-select: none;
+    .header-text {
+        color: white;
+    }
+    .material-symbols-outlined {
+        cursor: pointer;
+    }
+}

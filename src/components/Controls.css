@@ -1,0 +1,17 @@
+.controls {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 1fr / 3rem min-content min-content min-content 3rem;
+    .right {
+        margin: auto 0 auto auto auto;
+    }
+    .big {
+        font-size: 3rem;
+    }
+    .medium {
+        font-size: 2rem;
+    }
+    .small {
+        font-size: 1.5rem;
+    }
+}
