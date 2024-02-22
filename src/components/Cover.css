@@ -2,7 +2,7 @@
     display: grid;
     .image {
         width: 34rem;
-        max-width: 90%;
+        height: 34rem;
         margin: 0 auto;
         padding: 2rem;
     }

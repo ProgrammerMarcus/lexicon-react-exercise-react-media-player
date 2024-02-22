@@ -1,6 +1,6 @@
 import "./Playlist.css";
 import { PlaylistItem } from "./PlaylistItem";
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 
 const tracks = [
     {
@@ -88,11 +88,14 @@ export interface PlaylistProps {
 }
 
 export function Playlist({ current }: PlaylistProps) {
+
+    const [trackId, setTrackId] = useState(0);
+
     return (
         <>
-            <div className="playlist" onClick={(e) => console.log(e)}>
+            <div className="playlist">
                 {tracks.map((track) => (
-                    <PlaylistItem selected={false} key={track.id} current={current} title={track.title} artist={track.artist} cover={track.cover}></PlaylistItem>
+                    <PlaylistItem click={setTrackId} selected={trackId===track.id} id={track.id} key={track.id} current={current} title={track.title} artist={track.artist} cover={track.cover}></PlaylistItem>
                 ))}
             </div>
         </>

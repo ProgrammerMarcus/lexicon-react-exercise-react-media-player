@@ -14,11 +14,11 @@
 }
 
 .track:hover {
-    background-color: #00000099;
+    backdrop-filter: brightness(1.5);
 }
 
 .track.selected {
-    background-color: #44444499;
+    backdrop-filter: brightness(2);
     .icon {
         opacity: 1;
     }

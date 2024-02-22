@@ -7,9 +7,9 @@ import { useState } from "react";
 export function App() {
 
     const [current, setCurrent] = useState({
-        title: "Monochrome Grayscale Black",
-        artist: "Old as dirt",
-        cover: "greyscale.jpg",
+        title: "Select a track to play!",
+        artist: "None",
+        cover: "none.jpg",
     });
 
     return (
