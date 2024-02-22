@@ -5,6 +5,7 @@
     background-color: #00000022;
     padding: 0.5rem;
     gap: 0.5rem;
+    cursor: pointer;
     .icon {
         margin: auto 0 auto auto;
         opacity: 0.6;
@@ -12,8 +13,12 @@
     }
 }
 
-.track:first-child {
-    background-color: #00000044;
+.track:hover {
+    background-color: #00000099;
+}
+
+.track.selected {
+    background-color: #44444499;
     .icon {
         opacity: 1;
     }

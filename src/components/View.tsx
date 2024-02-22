@@ -3,17 +3,17 @@ import { Cover } from "./Cover";
 import { Range } from "./Range";
 import { Controls } from "./Controls";
 
-const track = {
-    title: "Colorful Sound",
-    artist: "Some artist",
-    cover: "colorful.jpg",
-};
+export interface TrackProps {
+    title: string;
+    cover: string;
+    artist: string;
+}
 
-export function View() {
+export function View({title, artist, cover}: TrackProps) {
     return (
         <>
             <div className="view">
-                <Cover title={track.title} artist={track.artist} cover={track.cover}></Cover>
+                <Cover title={title} artist={artist} cover={cover}></Cover>
                 <Range elapsed={34} duration={233}></Range>
                 <Controls></Controls>
             </div>
