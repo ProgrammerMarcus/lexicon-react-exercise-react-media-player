@@ -1,10 +1,11 @@
 .cover {
     display: grid;
     .image {
-        width: 34rem;
-        height: 34rem;
+        width: 100%;
+        max-width: 37rem;
         margin: 0 auto;
         padding: 2rem;
+        aspect-ratio: 1;
     }
     .info {
         display: grid;
@@ -21,7 +22,7 @@
             place-items: center;
             font-size: 1.2rem;
             .subtitle {
-                opacity: 0.8;
+                opacity: 0.7;
             }
         }
         .dim {
